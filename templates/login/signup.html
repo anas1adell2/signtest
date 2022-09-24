@@ -1,0 +1,32 @@
+{% extends "login/sign.html" %}
+
+{% block sign_form %}
+	<form class="plain_form sign_form">
+
+					    <div><input type="text" placeholder="Enter Name"/></div>
+						<div><input type="text" placeholder="Choose Username"/></div>
+						<div><input type="text" placeholder="Email Address"/></div>
+						<div><input type="password" placeholder="Choose Password"/></div>
+						<div><input type="password" placeholder="Repeat Password"/></div>
+						<div>
+							<select>
+								<option value="volvo">Choose Gender</option>
+								<option value="saab">Male</option>
+								<option value="mercedes">Female</option>
+							</select>
+						</div>
+						<div class="left_side_content floated_inline_content">
+					      <input type="checkbox" id="horns" name="horns" />
+						  <label for="horns">I have read & agree the <a href=""> Terms of service </a></label>
+						</div>
+						<div><button type="submit" class="dark_submit">Confirm Signup</button></div>
+						<div><button type="submit"><i class="fa fa-google" aria-hidden="true"><span>sign in with Gmail</span></i></button></div>
+                        <div><button type="submit"><i class="fa fa-facebook-f" aria-hidden="true"><span>sign in with FB</span></i></button></div>
+
+                    </form>
+
+{% endblock %}
+
+            
+			
+		

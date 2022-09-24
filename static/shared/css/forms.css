@@ -1,0 +1,186 @@
+.plain_form div label ,.plain_form a i span, .plain_form div button i span, .plain_form div button,  .plain_form .mfile_uploader span , .plain_form  select, .plain_form  div label a{
+    font-family: 'Aref Ruqaa Ink', serif;
+	font-size: 1.1rem;
+}
+
+.plain_form {
+    margin: 0 auto;
+}
+
+.plain_form, .plain_form div {
+    display: block;
+}
+
+.plain_form > div {
+	margin: 1rem 0.5rem;
+	text-align: center;
+}
+
+
+
+.plain_form button, .plain_form input, .plain_form textarea, .plain_form label , .plain_form  select, .plain_form h1, .plain_form div a, .plain_form .mfile_uploader  {
+	display: inline-block;
+	font-size: 0.9rem;
+}
+
+
+.plain_form button, .plain_form input:not([type="checkbox"]), .plain_form textarea, .plain_form select, .plain_form .mfile_uploader {
+	width: 90%;
+	margin: 0 auto;
+	padding: 0.8rem 0.3rem;
+}
+
+.plain_form select {
+	outline:0px;
+	background: transparent;
+}
+
+.plain_form input, .plain_form select {
+	border-style: solid;
+	border-width: 0 0 1px 0;
+	background: transparent;
+}
+
+.default_form input, .default_form select {
+	border-color: #ccc;
+}
+
+
+.default_form button, .default_form label, .default_form input:not([type="checkbox"]), .default_form textarea, .default_form div label , .default_form a, .default_form  select, .default_form h1 , .default_form .mfile_uploader, .default_form .floated_inline_content, .default_form div > a {
+
+	color: #8b98b5;
+}
+
+.default_form button , .default_form .mfile_uploader {
+	color: #666;
+	text-shadow: none;
+    background-image: linear-gradient(#fff, #f1f1f1);
+	border: 1px solid #ececec;
+	border-radius: 22px;
+	box-shadow: -1px 1px 1px 1px #ecece;
+}
+
+
+.plain_form div span {
+    font-family: inherit;
+    margin: 0 0.3rem;
+}
+
+
+.plain_form ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-family: 'Aref Ruqaa Ink', serif;
+  color: #ccc;
+  text-shadow: none;
+  opacity: 1; /* Firefox */
+}
+
+.plain_form :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  font-family: 'Aref Ruqaa Ink', serif;
+  color: #ccc;
+  text-shadow: none;
+}
+
+.plain_form ::-ms-input-placeholder { /* Microsoft Edge */
+  font-family: 'Aref Ruqaa Ink', serif;
+  color: #ccc;
+  text-shadow: none;
+}
+
+
+/*
+
+
+
+
+
+.plain_form {
+    margin: 0 auto;
+}
+
+.plain_form, .plain_form div {
+    display: block;
+}
+
+.plain_form .mfile_uploader input[type="file"] {
+    display: none;
+}
+
+
+.plain_form .floated_inline_content a, .plain_form .floated_inline_content label , .plain_form .floated_inline_content input{
+	display: inline;
+}
+
+.plain_form .left_side_content {
+    text-align: left;
+    padding: 1rem;
+}
+
+.plain_form > div {
+	margin: 1rem 0.5rem;
+	text-align: center;
+}
+
+.plain_form div > a {
+    text-decoration: underline;
+}
+
+
+.plain_form button, .plain_form input, .plain_form textarea, .plain_form label , .plain_form  select, .plain_form h1, .plain_form div a, .plain_form .mfile_uploader  {
+	display: inline-block;
+	font-size: 0.9rem;
+}
+
+
+.plain_form button, .plain_form input:not([type="checkbox"]), .plain_form textarea, .plain_form select, .plain_form .mfile_uploader {
+	width: 90%;
+	margin: 0 auto;
+	padding: 0.8rem 0.3rem;
+}
+
+
+
+.plain_form h1 , .plain_form label,.plain_form input, .plain_form select , .plain_form a{
+    text-shadow: 1px 1px 1px #ececec;
+    color: #707f94;
+}
+
+.plain_form select {
+	outline:0px;
+	background: transparent;
+}
+
+.plain_form input, .plain_form select {
+	border-style: dashed;
+	border-width: 0 0 1px 0;
+	border-color: #ccc;
+}
+
+.plain_form button , .plain_form .mfile_uploader {
+	color: #666;
+	text-shadow: none;
+    background-image: linear-gradient(#fff, #f1f1f1);
+	border: 1px solid #ececec;
+	border-radius: 10px;
+	box-shadow: -1px 1px 1px 1px #ecece;
+}
+
+
+.plain_form textarea {
+	min-height: 7rem;
+	resize: none;
+    outline: none;
+    border-style: dashed;
+	border-width: 1px;
+	border-color: #ccc;
+	border-radius: 9px;
+}
+
+
+
+.plain_form div span {
+    font-family: inherit;
+    margin: 0 0.3rem;
+}
+
+
+*/

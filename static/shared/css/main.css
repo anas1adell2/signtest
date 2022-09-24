@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	max-width: 100%;
+
+}
+
+/* Defaults*/
+
+input:focus {
+    outline:none;
+}
+
+
+
+
+/* Basics*/
+
+.stripped_ul {
+	list-style-type: none;
+}
+
+.stripped_ul a {
+	text-decoration: none;
+}
+
+.stripped_ul img{
+	border: none;
+}
+
+

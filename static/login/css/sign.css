@@ -1,0 +1,163 @@
+body {
+    background-image: linear-gradient(to right ,#6275a1, #23a892);
+}
+
+
+.sign_wrapper {
+	width: 80%;
+	max-width: 500px;
+	margin: 0 auto;
+
+}
+
+
+.sign_header {
+	margin: 2rem 0;
+	text-align: center;
+}
+
+.sign_header a, .sign_header h1, .sign_nav a span {
+   font-family: 'Playfair Display', serif;
+}
+
+.sign_header h1 {
+	text-align: center;
+}
+
+.sign_header a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.sign_nav {
+	overflow: hidden;
+
+}
+
+.sign_nav li {
+	display: block;
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.sign_nav a {
+	display: inline-block;
+	padding: 0.5rem 0.2rem;
+}
+
+.sign_nav .cur_sign {
+	border-bottom: 1px solid #ccc;
+}
+
+.sign_nav a {
+	font-size: 1.1rem;
+	color: #fff;
+}
+
+.sign_nav span {
+	display: inline-block;
+	margin: 0 0.5rem;
+}
+
+
+.sign_form {
+	margin: 2rem 0;
+}
+
+.sign_form .floated_inline_content {
+	margin: 1.5rem 0;
+}
+
+.sign_form div > a, .sign_form div label a  {
+	margin: 1rem 0;
+	color: #fff;
+    text-decoration: underline;
+}
+
+.sign_form input, .sign_form select {
+	border-color: #fff;
+}
+
+.sign_form button {
+	padding: 1rem 0;
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 22px;
+	color: #6f7a94;
+}
+
+
+.sign_form label, .sign_form input:not([type="checkbox"]), .sign_form textarea, .sign_form div label , .sign_form a, .sign_form  select, .sign_form h1 , .sign_form .floated_inline_content, .sign_form div > a {
+
+	    color: #f1f1f1;
+}
+.sign_form option {
+	margin: 40px;
+	color: #6f7a94;
+}
+
+
+
+.sign_form ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+
+.sign_form :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #fff;
+}
+
+.sign_form ::-ms-input-placeholder { /* Microsoft Edge */
+  color: #fff;
+}
+
+
+@media only screen and (min-width: 600px) {
+  body {
+    background: #fff;
+  }
+  .sign_header a {
+    color: #6f7a94;
+	}
+	.sign_nav a {
+		color: #6f7a94;
+	}
+
+	.sign_form input, .sign_form select {
+		border-color: #ccc;
+	}
+
+.sign_form div > a, .sign_form div label a {
+    text-decoration: underline;
+}
+.sign_form div > a {
+	color: #6f7a94;
+
+}
+
+.sign_form div label a {
+	color: orange;
+}
+
+.sign_form label, .sign_form input:not([type="checkbox"]), .sign_form textarea, .sign_form div label , .sign_form a, .sign_form  select, .sign_form h1 , .sign_form .floated_inline_content, .sign_form div > a {
+
+	    color: #8b98b5;
+}
+
+
+.sign_form ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #999;
+  opacity: 1; /* Firefox */
+}
+
+.sign_form :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #999;
+}
+
+.sign_form ::-ms-input-placeholder { /* Microsoft Edge */
+  color: #999;
+}
+}
+

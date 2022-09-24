@@ -1,0 +1,38 @@
+{% extends "shared/base.html" %}
+{% load static %}
+
+{% block css %}
+	<link rel="stylesheet" type="text/css" href="{% static 'shared/css/main.css' %}" />
+	<link rel="stylesheet" type="text/css" href="{% static 'shared/css/forms.css' %}" />
+	<link rel="stylesheet" type="text/css" href="{% static 'login/css/sign.css' %}" />
+	<!-- play fair -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+
+{% endblock %}
+
+
+{% block body %}
+
+	
+
+	<div class="sign_wrapper">
+		<div class="sign_header">
+			<h1><a href=""> Gutgy</a>⁢</h1>
+		</div>
+		<div class="sign_nav">
+			    <ul class="stripped_ul">
+				    <li><a href="{% url 'login:signin' %}" class="cur_sign"><i class="fa fa-user"><span>Sign in</span></i></a></li>
+				    <li><a href=""><a href="{% url 'login:signup' %}"><i class="fa fa-wpforms" aria-hidden="true"><span> Sign up </span></i></a></li>
+			    </ul>
+	    </div>
+
+		{% block sign_form %}{% endblock %}
+
+		
+
+	</div>
+{% endblock %}
+
+
